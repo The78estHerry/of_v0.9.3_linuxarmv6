@@ -1,5 +1,6 @@
 [openFrameworks](http://openframeworks.cc/) 
-feat. RaspberryPi x Debian8 Cross Compile x Eclipse 
+================
+RaspberryPi x Debian8 Cross Compile x Eclipse 
 ================
 
 openFrameworks is a C++ toolkit for creative coding.  If you are new to OF, welcome!
