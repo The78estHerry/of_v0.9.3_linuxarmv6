@@ -1,0 +1,8 @@
+﻿  Copying sources remotely
+  Invoking cd ~/projects/openFrameworks/libs/openFrameworksCompiled/project/openframeworksLib;make Debug
+  bash: line 0: cd: /home/pi/projects/openFrameworks/libs/openFrameworksCompiled/project/openframeworksLib: No such file or directory
+  bash: line 0: cd: /home/pi/projects/openFrameworks/libs/openFrameworksCompiled/project/openframeworksLib: No such file or directory
+  make: *** No rule to make target 'Debug'.  Stop.
+  make: *** No rule to make target 'Debug'.  Stop.
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Application Type\Linux\1.0\Linux.Makefile.Targets(128,5): error : cd ~/projects/openFrameworks/libs/openFrameworksCompiled/project/openframeworksLib;make Debug exited with code 2, please see the Output Window - Build output for more details (NOTE: the build output verbosity might need to be changed in Tools Options to see more information in the Output Window).
