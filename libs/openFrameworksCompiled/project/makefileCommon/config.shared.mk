@@ -16,7 +16,6 @@
 #   $(PLATFORM_LIB_SUBPATH) (e.g. linuxarmv6l, osx, linux64, linux, etc)
 ################################################################################
 #   
-MAKEFILE_DEBUG=1
 
 ifndef SHELL
     SHELL := /bin/sh
@@ -289,11 +288,24 @@ CORE_PKG_CONFIG_LIBRARIES =
 CORE_PKG_CONFIG_LIBRARIES += $(PLATFORM_PKG_CONFIG_LIBRARIES)
 CORE_PKG_CONFIG_LIBRARIES += $(PROJECT_PKG_CONFIG_LIBRARIES)
 
+ifdef ECLIPSE_BUILD
+OF_SCRIPTS=$(OF_ROOT)/scripts
+OF_SCRIPTS_OPT=$(OF_SCRIPTS)/opt
+SH_PKG_CONFIG_ECLIPSE=$(OF_SCRIPTS_OPT)/pkg-config-eclipse.sh
+endif
+
 ifneq ($(strip $(CORE_PKG_CONFIG_LIBRARIES)),)
 $(info checking pkg-config libraries: $(CORE_PKG_CONFIG_LIBRARIES))
-	ifneq ($(shell $(PLATFORM_PKG_CONFIG) "$(CORE_PKG_CONFIG_LIBRARIES)" --exists; echo $$?),0)
-$(error couldn't find some pkg-config packages, did you run the latest install_dependencies.sh?)
+	ifdef ECLIPSE_BUILD
+		ifneq ($(shell $(SH_PKG_CONFIG_ECLIPSE) $(PLATFORM_PKG_CONFIG) "$(CORE_PKG_CONFIG_LIBRARIES)" --exists; echo $$?),0)
+		$(error couldn't find some pkg-config packages, did you run the latest install_dependencies.sh?)
+		endif	
+	else
+		ifneq ($(shell $(PLATFORM_PKG_CONFIG) "$(CORE_PKG_CONFIG_LIBRARIES)" --exists; echo $$?),0)
+		$(error couldn't find some pkg-config packages, did you run the latest install_dependencies.sh?)
+		endif
 	endif
+	
 	ifeq ($(CROSS_COMPILING),1)
 		OF_CORE_INCLUDES_CFLAGS += $(patsubst -I%,-I$(SYSROOT)% ,$(shell export PKG_CONFIG_LIBDIR=$(PKG_CONFIG_LIBDIR);$(PLATFORM_PKG_CONFIG) "$(CORE_PKG_CONFIG_LIBRARIES)" --cflags))
 	else
