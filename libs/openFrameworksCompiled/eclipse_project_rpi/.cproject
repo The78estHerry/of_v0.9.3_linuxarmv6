@@ -30,6 +30,26 @@
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include-fixed"/>
 								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.76994059" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
+									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="_REENTRANT"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_LIMIT_MACROS"/>
+									<listOptionValue builtIn="false" value="TARGET_POSIX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBOPENMAX=2"/>
+									<listOptionValue builtIn="false" value="OMX"/>
+									<listOptionValue builtIn="false" value="OMX_SKIP64BIT"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_OMX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
+									<listOptionValue builtIn="false" value="__ARMEL__=1"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.323511069" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1191973841" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -51,6 +71,26 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.950844132" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
+									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="_REENTRANT"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_LIMIT_MACROS"/>
+									<listOptionValue builtIn="false" value="TARGET_POSIX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBOPENMAX=2"/>
+									<listOptionValue builtIn="false" value="OMX"/>
+									<listOptionValue builtIn="false" value="OMX_SKIP64BIT"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_OMX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
+									<listOptionValue builtIn="false" value="__ARMEL__=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.396803815" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -101,6 +141,27 @@
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include-fixed"/>
 								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.2147299996" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
+									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="_REENTRANT"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_LIMIT_MACROS"/>
+									<listOptionValue builtIn="false" value="TARGET_POSIX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBOPENMAX=2"/>
+									<listOptionValue builtIn="false" value="OMX"/>
+									<listOptionValue builtIn="false" value="OMX_SKIP64BIT"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_OMX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
+									<listOptionValue builtIn="false" value="__ARMEL__=1"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.892471600" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1475937747" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -122,6 +183,27 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.2045045409" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
+									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="_REENTRANT"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_LIMIT_MACROS"/>
+									<listOptionValue builtIn="false" value="TARGET_POSIX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBOPENMAX=2"/>
+									<listOptionValue builtIn="false" value="OMX"/>
+									<listOptionValue builtIn="false" value="OMX_SKIP64BIT"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_OMX"/>
+									<listOptionValue builtIn="false" value="HAVE_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
+									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
+									<listOptionValue builtIn="false" value="__ARMEL__=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.585061771" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
