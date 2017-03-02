@@ -26,6 +26,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>3rd_libs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>lib</name>
 			<type>2</type>
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/lib</locationURI>
@@ -39,6 +44,36 @@
 			<name>src</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/fmodex</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/fmodex</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/glfw</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/glfw</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/kiss</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/kiss</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/poco</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/poco</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/tess2</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/tess2</locationURI>
+		</link>
+		<link>
+			<name>3rd_libs/utf8cpp</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/utf8cpp</locationURI>
 		</link>
 		<link>
 			<name>src/3d</name>

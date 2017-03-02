@@ -43,6 +43,14 @@
 									<listOptionValue builtIn="false" value="/opt/cross/arm-linux-gnueabihf/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include-fixed"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/fmodex/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/glfw/include/GLFW}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/glfw/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/utf8cpp/include/utf8}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/utf8cpp/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.396803815" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -106,6 +114,14 @@
 									<listOptionValue builtIn="false" value="/opt/cross/arm-linux-gnueabihf/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include"/>
 									<listOptionValue builtIn="false" value="/opt/cross/lib/gcc/arm-linux-gnueabihf/4.9.2/include-fixed"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/fmodex/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/glfw/include/GLFW}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/glfw/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/utf8cpp/include/utf8}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/utf8cpp/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.585061771" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -137,6 +153,7 @@
 		<configuration configurationName="Default">
 			<resource resourceType="PROJECT" workspacePath="/openFrameworks_rpi"/>
 		</configuration>
+		<configuration configurationName="Release"/>
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/openFrameworks_rpi"/>
 		</configuration>
@@ -174,10 +191,10 @@
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332.;cdt.managedbuild.tool.gnu.cross.c.compiler.1253948966;cdt.managedbuild.tool.gnu.c.compiler.input.892471600">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1475937747;cdt.managedbuild.tool.gnu.cpp.compiler.input.585061771">
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1477667556;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1191973841;cdt.managedbuild.tool.gnu.cpp.compiler.input.396803815">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1477667556;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1191973841;cdt.managedbuild.tool.gnu.cpp.compiler.input.396803815">
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.1475937747;cdt.managedbuild.tool.gnu.cpp.compiler.input.585061771">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1477667556;cdt.managedbuild.tool.gnu.cross.c.compiler.2075246648;cdt.managedbuild.tool.gnu.c.compiler.input.323511069">
