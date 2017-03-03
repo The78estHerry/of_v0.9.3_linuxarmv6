@@ -141,4 +141,14 @@
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/video</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>OF_LIBS_LOC</name>
+			<value>$%7BOF_ROOT_LOC%7D/libs</value>
+		</variable>
+		<variable>
+			<name>OF_ROOT_LOC</name>
+			<value>$%7BPARENT-3-PROJECT_LOC%7D</value>
+		</variable>
+	</variableList>
 </projectDescription>
