@@ -7,8 +7,8 @@
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
 				</macros>
 				<externalSettings>
-					<externalSetting>
-						<entry flags="RESOLVED" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
+					<externalSetting languages="org.eclipse.cdt.core.g++">
+						<entry flags="NONE" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/video"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/utils"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/types"/>
@@ -47,7 +47,6 @@
 						<entry flags="RESOLVED" kind="macro" name="__STDC_LIMIT_MACROS" value=""/>
 						<entry flags="RESOLVED" kind="macro" name="__STDC_CONSTANT_MACROS" value=""/>
 					</externalSetting>
-					<externalSetting languages="org.eclipse.cdt.core.g++"/>
 				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
