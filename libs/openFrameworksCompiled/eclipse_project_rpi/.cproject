@@ -20,7 +20,11 @@
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.2088953409" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
 							<option id="cdt.managedbuild.option.gnu.cross.path.1853774747" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.234761307" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/openFrameworks_rpi/compile_work/project}" cleanBuildTarget="CleanDebug" id="cdt.managedbuild.builder.gnu.cross.1581741575" incrementalBuildTarget="Debug" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/openFrameworks_rpi/compile_work/project}" cleanBuildTarget="CleanDebug" id="cdt.managedbuild.builder.gnu.cross.1581741575" incrementalBuildTarget="Debug" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="compile_work/project"/>
+								</outputEntries>
+							</builder>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.2075246648" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option id="gnu.c.compiler.option.include.paths.519857275" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include"/>
@@ -71,6 +75,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.950844132" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
@@ -183,6 +188,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.2045045409" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>

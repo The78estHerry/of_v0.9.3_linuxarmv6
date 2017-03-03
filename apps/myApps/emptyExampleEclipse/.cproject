@@ -62,6 +62,19 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/3d}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/app}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/communication}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/gl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/graphics}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/math}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/sound}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1121437434" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
@@ -164,6 +177,19 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/3d}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/app}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/communication}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/gl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/graphics}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/math}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/sound}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1774086872" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>

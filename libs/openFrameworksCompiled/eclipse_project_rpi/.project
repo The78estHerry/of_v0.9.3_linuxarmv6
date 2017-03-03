@@ -36,9 +36,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>src</name>
+			<name>openFrameworks</name>
 			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
+			<locationURI>$%7BOF_LIBS_LOC%7D/openFrameworks</locationURI>
 		</link>
 		<link>
 			<name>3rd_libs/fmodex</name>
@@ -79,66 +79,6 @@
 			<name>compile_work/project</name>
 			<type>2</type>
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/project</locationURI>
-		</link>
-		<link>
-			<name>src/3d</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/3d</locationURI>
-		</link>
-		<link>
-			<name>src/app</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/app</locationURI>
-		</link>
-		<link>
-			<name>src/communication</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/communication</locationURI>
-		</link>
-		<link>
-			<name>src/events</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/events</locationURI>
-		</link>
-		<link>
-			<name>src/gl</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/gl</locationURI>
-		</link>
-		<link>
-			<name>src/graphics</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/graphics</locationURI>
-		</link>
-		<link>
-			<name>src/math</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/math</locationURI>
-		</link>
-		<link>
-			<name>src/ofMain.h</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/ofMain.h</locationURI>
-		</link>
-		<link>
-			<name>src/sound</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/sound</locationURI>
-		</link>
-		<link>
-			<name>src/types</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/types</locationURI>
-		</link>
-		<link>
-			<name>src/utils</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/utils</locationURI>
-		</link>
-		<link>
-			<name>src/video</name>
-			<type>2</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/openFrameworks/video</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
