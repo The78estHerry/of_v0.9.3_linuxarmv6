@@ -3,6 +3,7 @@
 	<name>openFrameworks_rpi</name>
 	<comment></comment>
 	<projects>
+		<project>emptyExampleEclipse</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -39,6 +40,11 @@
 			<name>openFrameworks</name>
 			<type>2</type>
 			<locationURI>$%7BOF_LIBS_LOC%7D/openFrameworks</locationURI>
+		</link>
+		<link>
+			<name>rpi_root</name>
+			<type>2</type>
+			<location>/home/pi/RPI_ROOT</location>
 		</link>
 		<link>
 			<name>3rd_libs/fmodex</name>

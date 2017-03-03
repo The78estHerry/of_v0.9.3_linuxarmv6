@@ -6,7 +6,49 @@
 				<macros>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
 				</macros>
-				<externalSettings/>
+				<externalSettings>
+					<externalSetting>
+						<entry flags="RESOLVED" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/video"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/utils"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/types"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/sound"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/math"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/graphics"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/gl"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/events"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/communication"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/app"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/3d"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/kiss/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/poco/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/tess2/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/utf8cpp/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/utf8cpp/include/utf8"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/glfw/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/glfw/include/GLFW"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/fmodex/include"/>
+						<entry flags="RESOLVED" kind="macro" name="USE_VCHIQ_ARM" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="USE_EXTERNAL_OMX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="USE_EXTERNAL_LIBBCM_HOST" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="TARGET_RASPBERRY_PI" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="TARGET_POSIX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="PIC" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="OMX_SKIP64BIT" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="OMX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="HAVE_LIBOPENMAX" value="2"/>
+						<entry flags="RESOLVED" kind="macro" name="HAVE_LIBBCM_HOST" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="GCC_HAS_REGEX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_REENTRANT" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_LARGEFILE64_SOURCE" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_FORTIFY_SOURCE" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_FILE_OFFSET_BITS" value="64"/>
+						<entry flags="RESOLVED" kind="macro" name="__STDC_LIMIT_MACROS" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="__STDC_CONSTANT_MACROS" value=""/>
+					</externalSetting>
+					<externalSetting languages="org.eclipse.cdt.core.g++"/>
+				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -29,7 +71,7 @@
 								</outputEntries>
 							</builder>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.2075246648" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
-								<option id="gnu.c.compiler.option.include.paths.519857275" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath"/>
+								<option id="gnu.c.compiler.option.include.paths.519857275" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false"/>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.76994059" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
 									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
@@ -61,6 +103,19 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/3d}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/app}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/communication}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/gl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/graphics}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/math}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/sound}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.950844132" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
@@ -106,7 +161,49 @@
 				<macros>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
 				</macros>
-				<externalSettings/>
+				<externalSettings>
+					<externalSetting>
+						<entry flags="RESOLVED" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/video"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/utils"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/types"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/sound"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/math"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/graphics"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/gl"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/events"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/communication"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/app"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/3d"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/kiss/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/poco/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/tess2/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/utf8cpp/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/utf8cpp/include/utf8"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/glfw/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/glfw/include/GLFW"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/3rd_libs/fmodex/include"/>
+						<entry flags="RESOLVED" kind="macro" name="USE_VCHIQ_ARM" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="USE_EXTERNAL_OMX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="USE_EXTERNAL_LIBBCM_HOST" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="TARGET_RASPBERRY_PI" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="TARGET_POSIX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="PIC" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="OMX_SKIP64BIT" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="OMX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="NDEBUG" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="HAVE_LIBOPENMAX" value="2"/>
+						<entry flags="RESOLVED" kind="macro" name="HAVE_LIBBCM_HOST" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="GCC_HAS_REGEX" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_REENTRANT" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_LARGEFILE64_SOURCE" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_FORTIFY_SOURCE" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="_FILE_OFFSET_BITS" value="64"/>
+						<entry flags="RESOLVED" kind="macro" name="__STDC_LIMIT_MACROS" value=""/>
+						<entry flags="RESOLVED" kind="macro" name="__STDC_CONSTANT_MACROS" value=""/>
+					</externalSetting>
+				</externalSettings>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -125,7 +222,7 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.487682607" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
 							<builder buildPath="${workspace_loc:/openFrameworks_rpi/compile_work/project}" cleanBuildTarget="CleanRelease" id="cdt.managedbuild.builder.gnu.cross.134934935" incrementalBuildTarget="Release" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1253948966" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
-								<option id="gnu.c.compiler.option.include.paths.2020681813" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath"/>
+								<option id="gnu.c.compiler.option.include.paths.2020681813" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false"/>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.2147299996" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
 									<listOptionValue builtIn="false" value="TARGET_RASPBERRY_PI"/>
@@ -158,6 +255,19 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/tess2/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/poco/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/3rd_libs/kiss/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/3d}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/app}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/communication}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/gl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/graphics}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/math}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/sound}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.2045045409" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
