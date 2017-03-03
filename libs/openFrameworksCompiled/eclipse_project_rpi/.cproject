@@ -290,6 +290,8 @@
 									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
 									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
 								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.859814617" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.flags.637962045" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="${of_cxx_flags}" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.585061771" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1847169269" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
