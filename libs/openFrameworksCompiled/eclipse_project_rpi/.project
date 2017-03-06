@@ -44,7 +44,7 @@
 		<link>
 			<name>rpi_root</name>
 			<type>2</type>
-			<location>/home/pi/RPI_ROOT</location>
+			<locationURI>$%7BRPI_ROOT_LOC%7D</locationURI>
 		</link>
 		<link>
 			<name>3rd_libs/fmodex</name>
@@ -95,6 +95,14 @@
 		<variable>
 			<name>OF_ROOT_LOC</name>
 			<value>$%7BPARENT-3-PROJECT_LOC%7D</value>
+		</variable>
+		<variable>
+			<name>RPI_ROOT_LOC</name>
+			<value>file:/home/pi/RPI_ROOT</value>
+		</variable>
+		<variable>
+			<name>TOOLCHAIN_ROOT_LOC</name>
+			<value>file:/opt/cross/bin</value>
 		</variable>
 	</variableList>
 </projectDescription>

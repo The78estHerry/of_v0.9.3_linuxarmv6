@@ -27,7 +27,6 @@
 
 include $(OF_SHARED_MAKEFILES_PATH)/config.linux.common.mk
 
-
 ################################################################################
 # PLATFORM DEFINES
 #   Create a list of DEFINES for this platform.  The list will be converted into 
@@ -53,7 +52,6 @@ PLATFORM_DEFINES += PIC
 PLATFORM_DEFINES += _REENTRANT
 PLATFORM_DEFINES += _LARGEFILE64_SOURCE
 PLATFORM_DEFINES += _FILE_OFFSET_BITS=64
-PLATFORM_DEFINES += _FORTIFY_SOURCE
 PLATFORM_DEFINES += __STDC_CONSTANT_MACROS
 PLATFORM_DEFINES += __STDC_LIMIT_MACROS
 PLATFORM_DEFINES += TARGET_POSIX
@@ -64,7 +62,9 @@ PLATFORM_DEFINES += USE_EXTERNAL_OMX
 PLATFORM_DEFINES += HAVE_LIBBCM_HOST
 PLATFORM_DEFINES += USE_EXTERNAL_LIBBCM_HOST
 PLATFORM_DEFINES += USE_VCHIQ_ARM
-
+ifeq ($(findstring Release,$(MAKECMDGOALS)),Release)
+	PLATFORM_DEFINES +=_FORTIFY_SOURCE
+endif
 
 ################################################################################
 # PLATFORM REQUIRED ADDONS

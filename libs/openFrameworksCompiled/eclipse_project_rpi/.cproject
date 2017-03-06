@@ -4,7 +4,9 @@
 		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<macros>
+					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
+					<stringMacro name="toolchain_root_loc" type="VALUE_TEXT" value="/opt/cross/bin"/>
 				</macros>
 				<externalSettings>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
@@ -62,7 +64,7 @@
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1477667556" name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.1145101079" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.2088953409" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-linux-gnueabihf-" valueType="string"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.1853774747" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="/opt/cross/bin" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1853774747" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="${toolchain_root_loc}" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.234761307" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
 							<builder buildPath="${workspace_loc:/openFrameworks_rpi/compile_work/project}" cleanBuildTarget="CleanDebug" id="cdt.managedbuild.builder.gnu.cross.1581741575" incrementalBuildTarget="Debug" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross">
 								<outputEntries>
@@ -90,6 +92,7 @@
 									<listOptionValue builtIn="false" value="USE_EXTERNAL_LIBBCM_HOST"/>
 									<listOptionValue builtIn="false" value="USE_VCHIQ_ARM"/>
 								</option>
+								<option id="gnu.c.compiler.option.dialect.std.210573308" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.323511069" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1191973841" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -114,7 +117,11 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
-									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/usr/include/c++/4.9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/IL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vcos/pthreads}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vmcs_host/linux}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.950844132" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
@@ -123,7 +130,6 @@
 									<listOptionValue builtIn="false" value="_REENTRANT"/>
 									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
 									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
-									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE"/>
 									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
 									<listOptionValue builtIn="false" value="__STDC_LIMIT_MACROS"/>
 									<listOptionValue builtIn="false" value="TARGET_POSIX"/>
@@ -160,7 +166,9 @@
 		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332" moduleId="org.eclipse.cdt.core.settings" name="Release">
 				<macros>
+					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
+					<stringMacro name="toolchain_root_loc" type="VALUE_TEXT" value="/opt/cross/bin"/>
 				</macros>
 				<externalSettings>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
@@ -219,7 +227,7 @@
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.2020214119" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.1408447977" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-linux-gnueabihf-" valueType="string"/>
-							<option id="cdt.managedbuild.option.gnu.cross.path.963021989" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="/opt/cross/bin" valueType="string"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.963021989" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="${toolchain_root_loc}" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.487682607" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
 							<builder buildPath="${workspace_loc:/openFrameworks_rpi/compile_work/project}" cleanBuildTarget="CleanRelease" id="cdt.managedbuild.builder.gnu.cross.134934935" incrementalBuildTarget="Release" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1253948966" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
@@ -268,7 +276,11 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/types}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/utils}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/openFrameworks/video}&quot;"/>
-									<listOptionValue builtIn="false" value="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/usr/include/c++/4.9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/IL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vcos/pthreads}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vmcs_host/linux}&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.2045045409" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="GCC_HAS_REGEX"/>
