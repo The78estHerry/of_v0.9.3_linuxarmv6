@@ -4,9 +4,9 @@
 		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<macros>
-					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
 					<stringMacro name="toolchain_root_loc" type="VALUE_TEXT" value="/opt/cross/bin"/>
+					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 				</macros>
 				<externalSettings>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
@@ -51,12 +51,12 @@
 					</externalSetting>
 				</externalSettings>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
@@ -166,9 +166,9 @@
 		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332" moduleId="org.eclipse.cdt.core.settings" name="Release">
 				<macros>
-					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 					<stringMacro name="of_cxx_flags" type="VALUE_TEXT" value="-std=c++14 -march=armv6 -mfpu=vfp -mfloat-abi=hard -ftree-vectorize -pipe -pthread -fPIC "/>
 					<stringMacro name="toolchain_root_loc" type="VALUE_TEXT" value="/opt/cross/bin"/>
+					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 				</macros>
 				<externalSettings>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
@@ -214,12 +214,12 @@
 					</externalSetting>
 				</externalSettings>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
@@ -339,34 +339,6 @@
 			<resource resourceType="PROJECT" workspacePath="/openFrameworks_rpi"/>
 		</configuration>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
-		<buildTargets>
-			<target name="Tmp" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments>-j4</buildArguments>
-				<buildTarget>Tmp</buildTarget>
-				<stopOnError>true</stopOnError>
-				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>true</runAllBuilders>
-			</target>
-			<target name="Debug" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments>-j4</buildArguments>
-				<buildTarget>Debug</buildTarget>
-				<stopOnError>true</stopOnError>
-				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>true</runAllBuilders>
-			</target>
-			<target name="Debig" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments>-j4 Debug</buildArguments>
-				<buildTarget>Debig</buildTarget>
-				<stopOnError>true</stopOnError>
-				<useDefaultCommand>false</useDefaultCommand>
-				<runAllBuilders>true</runAllBuilders>
-			</target>
-		</buildTargets>
-	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1797868332.;cdt.managedbuild.tool.gnu.cross.c.compiler.1253948966;cdt.managedbuild.tool.gnu.c.compiler.input.892471600">
@@ -381,5 +353,8 @@
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1423627271;cdt.managedbuild.toolchain.gnu.cross.base.1423627271.1477667556;cdt.managedbuild.tool.gnu.cross.c.compiler.2075246648;cdt.managedbuild.tool.gnu.c.compiler.input.323511069">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets/>
 	</storageModule>
 </cproject>
