@@ -9,6 +9,13 @@
 					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 				</macros>
 				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vmcs_host/linux"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vcos/pthreads"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/IL"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/usr/include/c++/4.9"/>
+					</externalSetting>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
 						<entry flags="NONE" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/video"/>
@@ -171,6 +178,13 @@
 					<stringMacro name="rpi_root_loc" type="VALUE_TEXT" value="/home/pi/RPI_ROOT"/>
 				</macros>
 				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vmcs_host/linux"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/interface/vcos/pthreads"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include/IL"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/opt/vc/include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/rpi_root/usr/include/c++/4.9"/>
+					</externalSetting>
 					<externalSetting languages="org.eclipse.cdt.core.g++">
 						<entry flags="NONE" kind="includePath" name="/home/pi/RPI_ROOT/usr/include/c++/4.9"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/openFrameworks_rpi/openFrameworks/video"/>
@@ -334,10 +348,10 @@
 		<configuration configurationName="Default">
 			<resource resourceType="PROJECT" workspacePath="/openFrameworks_rpi"/>
 		</configuration>
-		<configuration configurationName="Release"/>
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/openFrameworks_rpi"/>
 		</configuration>
+		<configuration configurationName="Release"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
